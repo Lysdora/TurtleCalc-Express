@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #2c2c54;
+  color: #f7f1e3;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #40407a;
+}
+
+header,
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+hr {
+  width: 20%;
+  border-bottom: 2px solid #ff793f;
+}
+
+span {
+  padding: 4px;
+  display: block;
+}
+
+.element-num {
+  padding: 2rem 0;
+}
+.element-num span {
+  display: inline-block;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+button {
+  margin: 20px 0;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.box-btn button:nth-child(1) {
+  background-color: #33d9b2;
+}
+
+.box-btn button:nth-child(2) {
+  background: #ff5252;
+}
+
+.box-btn button:nth-child(3) {
+  background: #ffb142;
+}
+.box-btn button:nth-child(4) {
+  background: #34ace0;
+}
+
+#sum-el {
+  color: gold;
+  font-weight: bold;
+}
+
+button#reset-el {
+  background-color: #706fd3;
+}
+
+figure img {
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+figure img:hover {
+  filter: grayscale(1);
+}

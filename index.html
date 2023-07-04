@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>TurtleCalc Express</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Turbocharge Your Math Skills with a Twist 🐢 </h1>
+            <hr>
+            <div class="element-num">
+                <span id="num1-el">0</span>
+                <span id="num2-el">0</span>
+            </div>
+
+        </header>
+
+
+        <main>
+            <div class="box-btn">
+                <button onclick="add()">Add</button>
+                <button onclick="subtract()">Subtract</button>
+                <button onclick="divide()">Divide</button>
+                <button onclick="multiply()">Multiply</button>
+            </div>
+
+
+            <span id="sum-el">Sum: </span>
+
+            <button id="reset-el" onclick="reset()">reset</button>
+            <figure>
+                <img src="img/turtle.webp" alt="">
+            </figure>
+        </main>
+        <footer>
+            <p>⭐️ Created by Murloc Craft 2023 ⭐️</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
